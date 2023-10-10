@@ -9,8 +9,8 @@ body {
   left: 0;
   right: 0;
   top: 0;
+  height: 50px;
   background-color: yellow;
-
 
   display: flex;
   justify-content: space-around;
@@ -21,7 +21,8 @@ body {
   background-color: greenyellow;
   width: 75px;
   bottom: 0;
-  padding: 20px 3px;
+  /* padding: 20px 2px; */
+  text-align: center;
 }
 
 .myGrid {
