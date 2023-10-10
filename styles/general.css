@@ -1,0 +1,38 @@
+body {
+  position: relative;
+  padding-top: 60px;
+}
+
+.navigation-bar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  /* height: 50px; */
+  background-color: yellow;
+
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navigation-bar-button {
+  background-color: greenyellow;
+  width: 75px;
+  bottom: 0;
+  padding: 20px 3px;
+}
+
+.myGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 15px;
+}
+
+.Fozzy{
+  height: 200px;
+  width: 200px;;
+}
