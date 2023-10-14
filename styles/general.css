@@ -22,10 +22,9 @@ p {
 }
 
 .navigation-bar-button {
-  /* background-color: lightpink; */
   width: 125px;
+  height: 35px;
   bottom: 0;
-  /* padding: 20px 2px; */
   text-align: center;
   cursor: pointer;
 }
@@ -42,13 +41,6 @@ p {
   row-gap: 25px;
   margin: 0 20px;
 }
-
-/* .requestFormGrid{
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  column-gap: 15px;
-  row-gap: 25px;
-}*/
 
 .Fozzy {
   height: 200px;
