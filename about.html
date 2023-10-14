@@ -2,63 +2,78 @@
 <html>
 
 <head>
-  <title>Awesome Recipes</title>
+  <title>Request Recipe</title>
   <link rel="stylesheet" href="styles/general.css">
 </head>
 
-<body style="background-color: blue;">
+<body">
   <div class="navigation-bar">
 
     <a href="index.html">
-      <div class="navigation-bar-button">Page 1</div>
+      <div class="navigation-bar-button">Home</div>
     </a>
 
     <a href="tips.html">
-      <div class="navigation-bar-button">Page 2</div>
+      <div class="navigation-bar-button">Recipe Sources</div>
     </a>
 
 
     <a href="recipe.html">
-      <div class="navigation-bar-button">Page 3</div>
+      <div class="navigation-bar-button">Recipes</div>
     </a>
-
 
     <a href="about.html">
-      <div class="navigation-bar-button">Page 4</div>
+      <div class="navigation-bar-button">Requests</div>
     </a>
+
   </div>
 
-  <h1> Page 2 - about.HTML</h1>
+  <h1> Recipe Request Form</h1>
+
+  <p>Is there a food recipe you would like us to add? Please submit below and I will add it to the website after
+    optimizing recipe, cooking directions and taste
+  </p>
+
 
   <fieldset>
-    <div>
-      <label for="fname">First Name:</label>
-      <input type="text" id="fname" name="fname">
+    <div class="fieldGrid">
+
+      <div class="horizontal2Grid">
+        <label for="appearance" style="text-align: right;">Your Name: </label>
+        <input type="text" id="appearance" name="appearance">
+      </div>
+
+      <div class="horizontal2Grid">
+        <label for="name" style="text-align: right;">Name of Dish: </label>
+        <input type="text" id="name" name="name">
+      </div>
+
+      <div>
+        <label for="statusChecker">Have you eaten this dish yourself?</label>
+        <input type="checkbox" id="statusChecker" name="statusChecker">
+      </div>
+
+      <div class="vertical2Grid">
+        <div>
+          <label for="descriptive">
+            Any descriptive information to help with research
+          </label>
+        </div>
+
+        <div>
+          <!-- <textarea id="descriptive" name="descriptive" rows="4" cols="50"> -->
+          <textarea id="descriptive" name="descriptive" class="myTextArea">
+          </textarea>
+        </div>
+      </div>
+
+      <div class="buttonFlexBox">
+        <button type="submit">
+          Submit
+        </button>
+      </div>
+
     </div>
-
-    <div>
-      <label for="lname">Last Name:</label>
-      <input type="text" id="lname" name="lname">
-    </div>
-
-    <div>
-      <label for="statusChecker">Check for yes:</label>
-      <input type="checkbox" id="statusChecker" name="statusChecker">
-    </div>
-
-    <div>
-      <label for="w3review">Review of W3Schools:</label>
-      <textarea id="w3review" name="w3review" rows="4" cols="50">
-      </textarea>
-    </div>
-
-    <div>
-      <button type="button">Click Me!</button>
-    </div>
-
-
   </fieldset>
-
-
 
 </html>

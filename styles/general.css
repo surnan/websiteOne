@@ -1,7 +1,11 @@
 body {
   position: relative;
-  padding-top: 60px;
+  padding: 60px;
   margin: 0;
+}
+
+p {
+  padding: 0 15px;
 }
 
 .navigation-bar {
@@ -10,7 +14,7 @@ body {
   right: 0;
   top: 0;
   height: 50px;
-  background-color: yellow;
+  background-color: lightgoldenrodyellow;
 
   display: flex;
   justify-content: space-around;
@@ -18,11 +22,17 @@ body {
 }
 
 .navigation-bar-button {
-  background-color: greenyellow;
-  width: 75px;
+  /* background-color: lightpink; */
+  width: 125px;
   bottom: 0;
   /* padding: 20px 2px; */
   text-align: center;
+  cursor: pointer;
+}
+
+.navigation-bar-button:hover{
+  background-color: pink;
+  color: black;
 }
 
 .myGrid {
@@ -33,7 +43,53 @@ body {
   margin: 0 20px;
 }
 
+/* .requestFormGrid{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 15px;
+  row-gap: 25px;
+}*/
+
 .Fozzy {
   height: 200px;
   width: 200px;
+  /* padding: 0 15px; */
+}
+
+.genericPic{
+  height: 400px;
+  width: 400px;
+}
+
+.myTextArea{
+  width: 100%;
+}
+
+fieldset{
+  margin: auto;
+  width: 600px;
+}
+
+.fieldGrid{
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: 400px;
+  row-gap: 10px;
+}
+
+.horizontal2Grid{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 7px;
+}
+
+.vertical2Grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 5px;
+}
+
+.buttonFlexBox{
+  display: flex;
+  justify-content: center;
 }
